@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.calculate-button.enter {
+    opacity: 0;
+    transform: translateY(-20px);
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.reset-button.entered {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+h1 {
+    text-align: center;
+}
+img {
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+.input-label {
+    text-align: center;
+    display: block;
+    margin-bottom: 10px;
+}
+input[type="number"] {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+button {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.result {
+    margin-top: 20px;
+    text-align: center;
+}
+.result {
+    margin-top: 20px;
+    text-align: center;
+}

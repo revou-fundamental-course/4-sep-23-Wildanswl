@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Kalkulator Luas dan keliling Persegi</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Kalkulator Luas dan Sisi Persegi</h1>
+        <h2><img src="https://e7.pngegg.com/pngimages/186/119/png-clipart-rectangle-frames-angle-angle-white.png"alt="gambar persegi"></h2>
+        <label class="input-label">Masukkan panjang sisi:</label>
+        <input type="number" id="sideLength">
+        <button onclick="calculate()">Hitung</button>
+        <button onclick="reset()">Reset</button>
+        <div class="result">
+            <p>Luas Persegi: <span id="areaResult"></span></p>
+            <p>Keliling Persegi: <span id="perimeterResult"></span></p>
+        </div>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+</html>
